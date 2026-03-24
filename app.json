@@ -23,6 +23,9 @@
     "web": {
       "bundler": "metro"
     },
-    "scheme": "mymobileapp"
+    "scheme": "mymobileapp",
+    "plugins": [
+      "expo-asset"
+    ]
   }
 }
