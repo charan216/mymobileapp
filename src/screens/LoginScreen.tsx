@@ -59,8 +59,8 @@ const LoginScreen = () => {
           <View style={styles.logoCircle}>
             <Text style={styles.logoText}>+</Text>
           </View>
-          <Text style={styles.appName}>HealthConnect</Text>
-          <Text style={styles.tagline}>Provider Portal</Text>
+          <Text style={styles.appName}>HomeSpace</Text>
+          <Text style={styles.tagline}>Your Home Hub</Text>
         </View>
 
         <Text style={styles.heading}>Welcome back</Text>

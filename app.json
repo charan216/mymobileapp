@@ -1,29 +1,29 @@
 {
   "expo": {
-    "name": "My Mobile App",
-    "slug": "mymobileapp",
+    "name": "HomeSpace",
+    "slug": "homespace",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/images/icon.png",
     "userInterfaceStyle": "automatic",
     "splash": {
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FF6B35"
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourname.mymobileapp"
+      "bundleIdentifier": "com.yourname.homespace"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#FF6B35"
       },
-      "package": "com.yourname.mymobileapp"
+      "package": "com.yourname.homespace"
     },
     "web": {
       "bundler": "metro"
     },
-    "scheme": "mymobileapp",
+    "scheme": "homespace",
     "plugins": [
       "expo-asset"
     ]
