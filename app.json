@@ -1,4 +1,28 @@
 {
-  "name": "MyMobileApp",
-  "displayName": "My Mobile App"
+  "expo": {
+    "name": "My Mobile App",
+    "slug": "mymobileapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.mymobileapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yourname.mymobileapp"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "scheme": "mymobileapp"
+  }
 }
